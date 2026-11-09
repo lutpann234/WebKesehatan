@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial;
+}
+
+.wrapper {
+    width: 1000px;
+    max-width: 90%;
+    margin: auto;
+}
+
+/* NAVBAR */
+nav {
+    background: #222;
+    position: sticky;
+    top: 0;
+    line-height: 70px;
+}
+
+nav .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.menu ul li a {
+    color: white;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+a.order {
+    background: #2e7d32;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+/* BANNER */
+#home .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.kolom {
+    flex: 1;
+}
+
+.kolom h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.kolom p {
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+a.reservasi {
+    background: #2e7d32;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.gambar {
+    width: 450px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+/* LAYANAN */
+.services {
+    padding: 50px 0;
+    background: #f5f5f5;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    margin-bottom: 10px;
+}
+
+.services-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.service-card {
+    background: white;
+    width: 230px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service-card h3 {
+    margin: 10px 0;
+    color: #2e7d32;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 20px;
+}
+
+.gambar-card {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* POLA HIDUP */
+#pola {
+    padding: 50px 0;
+}
+
+.judul-tengah {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pola-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pola-card {
+    background: #e8f5e9;
+    width: 230px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pola-card h3 {
+    margin-bottom: 10px;
+    color: #1b5e20;
+}
+
+.pola-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 20px;
+}
+
+/* DOKTER */
+#dokter {
+    padding: 40px 0;
+    background: #f5f5f5;
+}
+
+.dokter-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.dokter-box h2 {
+    margin-bottom: 10px;
+}
+
+.dokter-box p {
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.gambar-dokter {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* BOOKING */
+.booking-section {
+    padding: 50px 0;
+}
+
+.booking-title h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.booking-container {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.booking-form {
+    flex: 1;
+}
+
+.booking-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.btn-book {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.booking-map {
+    flex: 1;
+}
+
+.booking-map iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 280px;
+    border: 0;
+}
+
+/* FOOTER */
+.footer {
+    background: #222;
+    color: white;
+    padding: 30px 0 15px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-column h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #ddd;
+}
+
+/* IKON SOSMED - FOOTER */
+.sosmed {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.sosmed a {
+    width: 38px;
+    height: 38px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sosmed a img {
+    width: 20px;
+    height: 20px;
+}
+
+.sosmed a:hover {
+    background: #2e7d32;
+}
+
+/* KOMENTAR REKANAN */
+.komentar-section {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.komentar-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.komentar-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.komentar-card {
+    background: #222831;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.komentar-card p {
+    font-size: 13px;
+    color: #ddd;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.komentar-card b {
+    color: white;
+}
